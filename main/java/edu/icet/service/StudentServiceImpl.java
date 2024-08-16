@@ -14,7 +14,7 @@ List<Student> studentList=new ArrayList<>();
           studentList.add(student);
     }
     @Override
-    public Student getData(){
+    public List<Student> getData(){
         return studentList;
     }
 
