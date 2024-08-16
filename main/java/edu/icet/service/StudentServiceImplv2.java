@@ -1,7 +1,6 @@
 package edu.icet.service;
 
 import edu.icet.dto.Student;
-import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -17,7 +16,7 @@ List<Student> studentList=new ArrayList<>();
         studentList.add(student);
     }
     @Override
-    public List<Student> getData(){
+    public Student getData(){
         studentList.add(new Student(1,"Yasiru","Panadura",31));
         return studentList;
     }

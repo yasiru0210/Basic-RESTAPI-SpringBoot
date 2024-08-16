@@ -17,11 +17,13 @@ List<Student> studentList=new ArrayList<>();
         studentList.add(student);
     }
     @Override
-    public List<Student> getData(){
+    public Student getData(){
         studentList.add(new Student(1,"Yasiru","Panadura",31));
         studentList.add(new Student(1,"Kasiru","Panadura",31));
         studentList.add(new Student(1,"Lasiru","Panadura",31));
-        return studentList;
+        return new Student(5,"Kasun","Gampaha",49);
+
+        //return studentList;
     }
 
 }
