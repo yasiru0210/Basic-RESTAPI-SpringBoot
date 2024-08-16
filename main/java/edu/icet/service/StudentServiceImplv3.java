@@ -23,7 +23,7 @@ List<Student> studentList=new ArrayList<>();
         studentList.add(new Student(1,"Lasiru","Panadura",31));
         return new Student(5,"Kasun","Gampaha",49);
 
-        //return studentList;
+        return studentList;
     }
 
 }
